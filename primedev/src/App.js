@@ -1,12 +1,17 @@
 import React from 'react';
+import Logo from './components/LogPrime/index.js'
+import HeaderPrime from './components/HeaderPrime/index';
+import ButtonPrime from './components/ButtonPrime/index.js';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Hello World</h1>
-      </header>
-    </div>
+    <>
+      <HeaderPrime>
+        <Logo />
+        <ButtonPrime>Novo Video</ButtonPrime>
+      </HeaderPrime>
+
+    </>
   );
 }
 
